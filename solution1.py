@@ -17,6 +17,14 @@ else:
         print("First number is negative, second number is positive")
     else:
         print("Both numbers are negative")
+if a % 2 == 0:
+        print("First is an Even number")
+else:
+        print("First is an Odd number")
+if b % 2 == 0:
+        print("Second is an Even number")
+else:
+        print("Second is an Odd number")
 # Had to put the following here because if was breaking if after the digit count functions below. No idea why
 if a <= 1:
     is_prime = False
